@@ -16,15 +16,8 @@ class MainActivity : ComponentActivity() {
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 		setContent {
-			WeatherAppTheme {
-				// A surface container using the 'background' color from the theme
-				Surface(
-					modifier = Modifier.fillMaxSize(),
-					color = MaterialTheme.colorScheme.background
-				) {
-					Greeting("Android")
-				}
-			}
+			Greeting("Android")
+			TextFieldEntry()
 		}
 	}
 }
@@ -43,4 +36,9 @@ fun GreetingPreview() {
 	WeatherAppTheme {
 		Greeting("Android")
 	}
+}
+
+@Composable
+fun TextFieldEntry() {
+	Text(text = "Our name")
 }
