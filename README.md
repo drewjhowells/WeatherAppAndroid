@@ -1,7 +1,8 @@
 # Android Weather App
 
 This app was written by the Mobile Development Team at Brigham Young University-Idaho to develop software and team development skills for native Android development.
-
+Team Members:
+Camden Miller
 # Environment & Libraries
 - Kotlin Language
 - Jetpack Compose
