@@ -11,7 +11,9 @@ interface WeatherAPI {
 		@Query("location")
 		city : String,
 		@Query("apikey")
-		apikey : String = "p7dA97aismeORMUUAMdpjnWT3uDzvsRW"
+		apikey : String = "p7dA97aismeORMUUAMdpjnWT3uDzvsRW",
+		@Query("units")
+		units : String = "imperial"
 	) : Response<Forecast>
 }
 
