@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">WeatherApp</string>
+    <string-array name="locations_array">
+        <item>New York</item>
+        <item>London</item>
+        <item>Paris</item>
+        <!-- Add more locations as needed -->
+    </string-array>
 </resources>
